@@ -1,0 +1,37 @@
+    #one {
+      width: 300px;
+      height: 300px;
+      border: 1px solid black;
+      margin: auto;
+    }
+    #two {
+      width: 300px;
+      height: 300px;
+      border: 1px solid black;
+    }
+
+    .blue {
+      background-color: lightblue;
+    }
+    .grey {
+      background-color: lightgrey;
+    }
+    .big {
+      font-size: 30px;
+    }
+
+    #workspace {
+      height: 100vh;  
+    }
+
+    #yplayer {
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      background-color: rgba(0,0,0,0.6);
+      z-index: 5;
+      cursor: pointer;
+    }
+    .searchItem {
+      cursor: pointer;
+    }
